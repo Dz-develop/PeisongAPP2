@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr format="integer" name="textwidth" />
+    <attr name="typeface">
+        <enum name="normal" value="0" />
+        <enum name="sans" value="1" />
+        <enum name="serif" value="2" />
+        <enum name="monospace" value="3" />
+    </attr>
+
+    <declare-styleable name="SFTextView">
+        <attr name="textwidth" />
+        <attr format="dimension" name="textSize" />
+        <attr format="reference|color" name="textColor" />
+        <attr format="dimension" name="lineSpacingExtra" />
+        <attr name="typeface" />
+    </declare-styleable>
+
+	<declare-styleable name="ImageTextView">
+		<attr name="text_size" format="dimension" />
+		<attr name="text_color" format="color" />
+	</declare-styleable>
+	<!-- 导航栏 -->
+	<declare-styleable name="navigationbar">  
+        <attr name="left_button_text" format="string" />  
+        <attr name="right_button_text" format="string" />  
+        <attr name="hint_text" format="string" />  
+        <attr name="left_button_bg" format="reference"></attr>  
+        <attr name="right_button_bg" format="reference"></attr>  
+        <attr name="edittext_bg" format="reference"></attr> 
+    </declare-styleable>  
+	<declare-styleable name="TextTimeView">
+		<attr name="time_text_size" format="dimension" />
+		<attr name="time_text_color" format="color" />
+	</declare-styleable>
+</resources>

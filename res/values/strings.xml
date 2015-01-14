@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">配送者</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_error">加载数据失败,请检查您的网络</string>
+    <string name="refresh">点击加载 </string>
+
+    <!-- dialog信息 -->
+    <string name="dialog_exit_title">退出提示</string>
+    <string name="dialog_exit_message">您确定退出客户端吗？</string>
+    <string name="dialog_exit">退出</string>
+
+    <!-- 版本更新提示信息 -->
+
+    <!-- 筛选 -->
+    <string name="Ensure">"确定"</string>
+    <string name="Cancel">"取消"</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+    <string name="title_activity_activity_detail">ActivityDetailActivity</string>
+    <string name="title_activity_activity_detail_more">ActivityDetailMoreActivity</string>
+
+</resources>

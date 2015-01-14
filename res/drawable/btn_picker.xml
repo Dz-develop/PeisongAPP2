@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 点击 -->
+    <item android:drawable="@drawable/btn_picker_s" android:state_pressed="true"/>
+
+    <!-- 获得焦点 -->
+    <item android:drawable="@drawable/btn_picker_s" android:state_focused="true"/>
+
+    <!-- 初始状态 -->
+    <item android:drawable="@drawable/btn_picker_n"/>
+
+</selector>

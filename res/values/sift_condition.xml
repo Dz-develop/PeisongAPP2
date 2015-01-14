@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ARRAY_XZLAREA_KEY">
+        <item>不限</item>
+        <item>70平米以下</item>
+        <item>70&#8211;110平米</item>
+        <item>110&#8211;150平米</item>
+        <item>150&#8211;300平米</item>
+        <item>300&#8211;500平米</item>
+        <item>500&#8211;800平米</item>
+        <item>800平米以上</item>
+    </string-array>
+    <string-array name="ARRAY_XZLAREA_VALUE">
+        <item>不限</item>
+        <item>0,70</item>
+        <item>70,110</item>
+        <item>110,150</item>
+        <item>150,300</item>
+        <item>300,500</item>
+        <item>500,800</item>
+        <item>800,</item>
+    </string-array>
+    <string-array name="ARRAY_ZFPRICE_KEY">
+        <item>不限</item>
+        <item>500元/月以下</item>
+        <item>500&#8211;1000元/月</item>
+        <item>1000&#8211;2000元/月</item>
+        <item>2000&#8211;3000元/月</item>
+        <item>3000&#8211;5000元/月</item>
+        <item>5000&#8211;8000元/月</item>
+        <item>8000&#8211;10000元/月</item>
+        <item>10000元/月以上</item>
+    </string-array>
+    <string-array name="ARRAY_ZFPRICE_VALUE">
+        <item></item>
+        <item>0,500</item>
+        <item>500,1000</item>
+        <item>1000,2000</item>
+        <item>2000,3000</item>
+        <item>3000,5000</item>
+        <item>5000,8000</item>
+        <item>8000,10000</item>
+        <item>10000,</item>
+    </string-array>
+    <string-array name="rtype">
+        <item>不限</item>
+        <item>整租</item>
+        <item>合租</item>
+    </string-array>
+    <string-array name="rtypeValue">
+        <item>不限</item>
+        <item>zz</item>
+        <item>hz</item>
+    </string-array>
+    <string-array name="ARRAY_ESFPRICE_KEY">
+        <item>不限</item>
+        <item>50万元/套以下</item>
+        <item>50&#8211;100万元/套</item>
+        <item>100&#8211;150万元/套</item>
+        <item>150&#8211;200万元/套</item>
+        <item>200&#8211;300万元/套</item>
+        <item>300&#8211;500万元/套</item>
+        <item>500&#8211;800万元/套</item>
+        <item>800&#8211;1000万元/套</item>
+        <item>1000万元/套以上</item>
+    </string-array>
+    <string-array name="ARRAY_ESFPRICE_VALUE">
+        <item></item>
+        <item>0,50</item>
+        <item>50,100</item>
+        <item>100,150</item>
+        <item>150,200</item>
+        <item>200,300</item>
+        <item>300,500</item>
+        <item>500,800</item>
+        <item>800,1000</item>
+        <item>1000,</item>
+    </string-array>
+    <string-array name="ARRAY_XZLSP_TYPE">
+        <item>出租</item>
+        <item>出售</item>
+    </string-array>
+    <string-array name="xzlArrayPurpose">
+        <item>不限</item>
+        <item>纯写字楼</item>
+        <item>商住楼</item>
+        <item>商业综合体楼</item>
+        <item>酒店写字楼</item>
+    </string-array>
+    <string-array name="spArrayPurpose">
+        <item>不限</item>
+        <item>住宅底商</item>
+        <item>商业街商铺</item>
+        <item>临街门面</item>
+        <item>写字楼配套底商</item>
+        <item>购物中心/百货</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="buildclass_bs">
+        <item>不限</item>
+        <item>联排</item>
+        <item>独栋</item>
+        <item>双拼</item>
+        <item>叠加</item>
+    </string-array>
+    <string-array name="ARRAY_ROOM_NAME">
+        <item>不限</item>
+        <item>一居</item>
+        <item>两居</item>
+        <item>三居</item>
+        <item>四居</item>
+        <item>五居</item>
+        <item>五居以上</item>
+    </string-array>
+    <string-array name="ARRAY_ROOM_VALUE">
+        <item>不限</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>99</item>
+    </string-array>
+    <string-array name="ARRAY_PURPOSE">
+        <item>不限</item>
+        <item>住宅</item>
+        <item>经济适用房</item>
+        <item>别墅</item>
+        <item>写字楼</item>
+        <item>商铺</item>
+        <item>两限房</item>
+    </string-array>
+    <string-array name="ARRAY_XZL_VALUES">
+        <item>zf_xzl</item>
+        <item>esf_xzl</item>
+    </string-array>
+    <string-array name="ARRAY_SP_VALUES">
+        <item>zf_sp</item>
+        <item>esf_sp</item>
+    </string-array>
+    <string-array name="ARRAY_ZFSOURCE_KEY">
+        <item>个人和经纪人</item>
+        <item>个人</item>
+        <item>经纪人</item>
+    </string-array>
+    <string-array name="ARRAY_ZFSOURCE_VALUE">
+        <item></item>
+        <item>jx</item>
+        <item>jjr</item>
+    </string-array>
+    <string-array name="ARRAY_ESFAREA_KEY">
+        <item>不限</item>
+        <item>50平米以下</item>
+        <item>50&#8211;70平米</item>
+        <item>70&#8211;90平米</item>
+        <item>90&#8211;110平米</item>
+        <item>110&#8211;130平米</item>
+        <item>130&#8211;150平米</item>
+        <item>150&#8211;200平米</item>
+        <item>200&#8211;300平米</item>
+        <item>300平米以上</item>
+    </string-array>
+    <string-array name="ARRAY_ESFAREA_VALUE">
+        <item></item>
+        <item>0,50</item>
+        <item>50,70</item>
+        <item>70,90</item>
+        <item>90,110</item>
+        <item>110,130</item>
+        <item>130,150</item>
+        <item>150,200</item>
+        <item>200,300</item>
+        <item>300,</item>
+    </string-array>
+
+</resources>

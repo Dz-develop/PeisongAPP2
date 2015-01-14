@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lending">
+        <item>商业贷款</item>
+        <item>公积金</item>
+        <item>组合型</item>
+    </string-array>
+    <string-array name="mortgage">
+        <item>1年(12)期</item>
+        <item>2年(24)期</item>
+        <item>3年(36)期</item>
+        <item>4年(48)期</item>
+        <item>5年(60)期</item>
+        <item>6年(72)期</item>
+        <item>7年(84)期</item>
+        <item>8年(96)期</item>
+        <item>9年(108)期</item>
+        <item>10年(120)期</item>
+        <item>11年(132)期</item>
+        <item>12年(144)期</item>
+        <item>13年(156)期</item>
+        <item>14年(168)期</item>
+        <item>15年(180)期</item>
+        <item>16年(192)期</item>
+        <item>17年(204)期</item>
+        <item>18年(216)期</item>
+        <item>19年(228)期</item>
+        <item>20年(240)期</item>
+        <item>21年(252)期</item>
+        <item>22年(264)期</item>
+        <item>23年(276)期</item>
+        <item>24年(288)期</item>
+        <item>25年(300)期</item>
+        <item>26年(312)期</item>
+        <item>27年(324)期</item>
+        <item>28年(336)期</item>
+        <item>29年(348)期</item>
+        <item>30年(360)期</item>
+    </string-array>
+    <string-array name="cz_pricetype">
+        <item>元/平米·天</item>
+        <item>元/平米·月</item>
+        <item>元/月</item>
+    </string-array>
+    <string-array name="cz_type">
+        <item>主卧</item>
+        <item>次卧</item>
+        <item>隔断间</item>
+        <item>床位</item>
+    </string-array>
+    <string-array name="cz_sex">
+        <item>性别不限</item>
+        <item>限女生</item>
+        <item>限男生</item>
+        <item>限夫妻</item>
+    </string-array>
+    <string-array name="room">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="hall">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="qgroom">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="qghall">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="qgtoilet">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="csroom">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="age">
+        <item>不限</item>
+        <item>2年以下</item>
+        <item>2-5年</item>
+        <item>5-10年</item>
+        <item>10年以上</item>
+    </string-array>
+    <string-array name="office_officelevel">
+        <item>请选择级别</item>
+        <item>甲级</item>
+        <item>乙级</item>
+        <item>丙级</item>
+    </string-array>
+    <string-array name="office_officetype">
+        <item>请选择类型</item>
+        <item>纯写字楼</item>
+        <item>商住楼</item>
+        <item>商业综合体楼</item>
+        <item>酒店写字楼</item>
+    </string-array>
+    <string-array name="shopType">
+        <item>请选择类型</item>
+        <item>住宅底商</item>
+        <item>商业街商铺</item>
+        <item>酒店底商</item>
+        <item>旅游商铺</item>
+        <item>社区商铺</item>
+        <item>购物中心/综合体</item>
+        <item>卖场</item>
+        <item>沿街门脸</item>
+        <item>写字楼配套底商</item>
+    </string-array>
+    <string-array name="shopLevel">
+        <item>请选择铺面类型</item>
+        <item>店铺</item>
+        <item>摊位</item>
+        <item>柜台</item>
+    </string-array>
+    <string-array name="office_wuye">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="office_paytype">
+        <item>面议</item>
+        <item>月付</item>
+        <item>季付</item>
+        <item>半年付</item>
+        <item>年付</item>
+    </string-array>
+    <string-array name="office_paychildtype1">
+        <item>押一付一</item>
+        <item>押二付一</item>
+        <item>押三付一</item>
+    </string-array>
+    <string-array name="office_paychildtype2">
+        <item>无押付三</item>
+        <item>押一付三</item>
+        <item>押二付三</item>
+        <item>押三付三</item>
+    </string-array>
+    <string-array name="office_paychildtype3">
+        <item>无押付半年</item>
+        <item>押一付半年</item>
+        <item>押三付半年</item>
+    </string-array>
+    <string-array name="office_paychildtype4">
+        <item>无押年付</item>
+        <item>押一年付</item>
+        <item>押二年付</item>
+    </string-array>
+    <string-array name="office_paychildtype0">
+        <item>面议</item>
+    </string-array>
+    <string-array name="directionAll">
+        <item>请选择朝向</item>
+        <item>南北</item>
+        <item>南</item>
+        <item>东南</item>
+        <item>东</item>
+        <item>西南</item>
+        <item>北</item>
+        <item>西</item>
+        <item>东西</item>
+        <item>东北</item>
+        <item>西北</item>    
+    </string-array>
+    <string-array name="qgdirectionAll">
+        <item>不限</item>
+        <item>南北</item>
+        <item>南</item>
+        <item>东南</item>
+        <item>东</item>
+        <item>西南</item>
+        <item>北</item>
+        <item>西</item>
+        <item>东西</item>
+        <item>东北</item>
+        <item>西北</item>    
+    </string-array>
+    <string-array name="mright">
+    	<item>请选择产权性质</item>
+        <item>个人产权</item>
+        <item>限价房</item>
+        <item>央产房</item>
+        <item>使用权</item>
+        <item>单位产权</item>
+        <item>经济适用房</item>
+        <item>军产房</item>
+    </string-array>
+    <string-array name="fitment">
+    	<item>请选择装修</item>
+        <item>豪华装修</item>
+        <item>精装修</item>
+        <item>简装修</item>
+        <item>毛坯</item>
+    </string-array>
+    <string-array name="wanttype">
+        <item>一居</item>
+        <item>二居</item>
+        <item>三居</item>
+        <item>四居</item>
+        <item>五居</item>
+        <item>五居以上</item>
+    </string-array>
+    <string-array name="floor">
+        <item>不限</item>
+        <item>底层</item>
+        <item>中低层</item>
+        <item>高层</item>
+        <item>顶层</item>
+        <item>地下室</item>
+    </string-array>
+
+</resources>

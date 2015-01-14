@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 自适应宽高 -->
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 宽全屏，高自适应 -->
+    <style name="fill_width">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 宽、高全屏 -->
+    <style name="fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <!-- 搜房样式 -->
+    <style name="Theme.Soufun" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@drawable/window_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <!--  -->
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- 进度对话框样式 -->
+    <style name="Theme.Light.ProcessDialog.Blue" parent="@android:style/Theme.Light.NoTitleBar">
+
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <!-- 对话框样式 -->
+    <style name="Theme.Light.Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <!-- listview样式 -->
+    <style name="list">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:dividerHeight">1.0px</item>
+        <item name="android:divider">@drawable/divider_line</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:layout_weight">0.0</item>
+    </style>
+    <!-- listview样式 -->
+    <style name="morelist">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:dividerHeight">0.0px</item>
+        <item name="android:divider">@drawable/divider_line</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:layout_weight">0.0</item>
+    </style>
+    <!-- listview看房团样式 -->
+    <style name="listSeeHouse">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:dividerHeight">1.0px</item>
+        <item name="android:divider">@null</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:layout_weight">0.0</item>
+    </style>
+
+    <!-- 文字黑色18 -->
+    <style name="black18">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字黑色16 -->
+    <style name="black16">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字居中 16黑色 -->
+    <style name="centerBlack16" parent="wrap">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- 文字灰色14 -->
+    <style name="gray14">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字灰色16 -->
+    <style name="gray16">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字灰色12 -->
+    <style name="gray12">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字白色16 -->
+    <style name="white16">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字白色14 -->
+    <style name="white14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字白色12 -->
+    <style name="white12">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字灰色16 -->
+    <style name="detail_gray16">
+        <item name="android:textColor">@color/detail_gray</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字16 -->
+    <style name="text16">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字14 -->
+    <style name="text14">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字蓝色18 -->
+    <style name="blue18">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字橙色16 -->
+    <style name="orange16">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 我的搜房文字 -->
+    <style name="mysfwz">
+        <item name="android:textColor">@color/luntan_black</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 我的搜房数字 -->
+    <style name="mysfsz">
+        <item name="android:textColor">@color/agent_none</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 标题文字黑色18 -->
+    <style name="title_black18" parent="black18">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <!-- 内容文字灰色16 -->
+    <style name="content_gray16" parent="gray16">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <!-- 联系人白色16 -->
+    <style name="personwhite16">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 联系人白色18 -->
+    <style name="personwhite18">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 分割线 -->
+    <style name="divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@drawable/divider_line</item>
+    </style>
+
+
+    <!-- ScrollView -->
+    <style name="scroll">
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <!-- 间距10 -->
+    <style name="margin" parent="fill_width">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- 间距10 all -->
+    <style name="margin_all" parent="fill_width">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- 间距0 -->
+    <style name="margin0" parent="fill_width">
+        <item name="android:layout_marginRight">0dip</item>
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+ 
+    <!-- 头部带编辑框 -->
+    <style name="item_top_edittext" parent="fill_width">
+        <item name="android:clickable">false</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+    </style>
+   
+    <!-- 左右间距10 -->
+    <style name="margin_left_right" parent="fill_width">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- 除头部间距10 -->
+    <style name="margin_notop" parent="fill_width">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+  
+
+    <!-- 头部不可点击 -->
+    <style name="item_top_n" parent="fill_width">
+        <item name="android:clickable">false</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">15dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingBottom">15dip</item>
+    </style>
+    <!-- 头部不可点击(10dip) -->
+    <style name="item_top_n_10" parent="fill_width">
+        <item name="android:clickable">false</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+    </style>
+
+
+  
+    <!-- 右侧图片 -->
+    <style name="right_icon" parent="wrap">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+  
+    <style name="mainluntan_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:paddingBottom">@dimen/bottom_luntantab_padding_up</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- 列表头图 -->
+    <style name="list_item_img_head">
+        <item name="android:layout_width">100dip</item>
+        <item name="android:layout_height">75dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_margin">4dip</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <!-- 列表头图 -->
+    <style name="list_item_img_head_online">
+        <item name="android:layout_width">100dip</item>
+        <item name="android:layout_height">75dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <!-- 店铺列表右侧经纪人头像 -->
+    <style name="list_item_img_head_jingji">
+        <item name="android:layout_width">37.5dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <!-- 列表头图右侧整体样式 -->
+    <style name="list_item_ll">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">3dip</item>
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:layout_marginTop">3dip</item>
+        <item name="android:layout_marginRight">8dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- 列表每行RelativeLayout样式 -->
+    <style name="list_item_one_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_margin">1dip</item>
+    </style>
+    <!-- 列表每行RelativeLayout中间样式 -->
+    <style name="list_middleitem_one_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">1dip</item>
+        <item name="android:layout_marginRight">1dip</item>
+    </style>
+
+    <style name="publish_input_linlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 搜索“更多”类型spinner样式 -->
+    <style name="spinner">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dip</item>
+        <item name="android:layout_marginRight">20dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <!-- 详情页头图背景框样式 -->
+    <style name="detail_headpic">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <declare-styleable name="SoufunTextView">
+        <attr name="width" format="dimension" />
+        <attr name="textsize" format="dimension" />
+        <attr name="textcolor" format="reference|color" />
+        <attr name="linespacingextra" format="dimension" />
+        <attr name="typeface" />
+    </declare-styleable>
+    <!-- 313232_18 -->
+    <style name="light_black18" parent="wrap">
+        <item name="android:textColor">#313232</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- 313232_16 -->
+    <style name="light_black16" parent="light_black18">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- 666666_18 -->
+    <style name="light_gray18" parent="wrap">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- 666666_16 -->
+    <style name="light_gray16" parent="light_gray18">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="chat_text_date_style">
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="AnimAlpha" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_alpha_show</item>
+        <item name="android:windowExitAnimation">@anim/anim_alpha_fade</item>
+    </style>
+
+  
+
+    <style name="home_item_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:textColor">@color/black_news</item>
+        <item name="android:textSize">16.0sp</item>
+    </style>
+
+    <style name="home_item_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/home_gray</item>
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <!-- 评估 -->
+   
+    <!-- 提交按钮 -->
+    <style name="btn_sub">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:layout_marginTop">15dip</item>
+        <item name="android:layout_marginBottom">15dip</item>
+        <item name="android:background">@drawable/btn_sub</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <!-- 输入框 -->
+    <style name="edit">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <!-- 提交按钮样式 -->
+    <style name="btn_submit" parent="btn_sub">
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_marginRight">0dip</item>
+        <item name="android:background">@drawable/btn_submit</item>
+    </style>
+
+    <style name="Theme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <style name="ImageloadingDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 对话框是否有遮盖 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>
