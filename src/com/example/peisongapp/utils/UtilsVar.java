@@ -86,8 +86,6 @@ public class UtilsVar {
 
 	public static int screenWidth = 0;
 	public static int screenHeight = 0;
-	public static boolean chatFunctionSWitcher = true;// true则可以发送图片视频，false不可以关闭多媒体聊天功能
 	public static boolean hasSDcard = true;// 是否存在SD卡，默认存在
-	public static boolean isStartStatio = false;// 是否启动直播看房true表示已经启动，false为没有启动
 	public static Object chatObj = new Object();
 }
