@@ -9,11 +9,11 @@ package com.example.peisongapp.utils;
  * Description:
  * </p>
  * <p>
- * Company: soufun
+ * Company: 
  * </p>
  * 
- * @author    mwq
- * @date       2012-4-1
+ * @author    
+ * @date       
  */
 public class UtilsVar {
 	/**
@@ -30,16 +30,8 @@ public class UtilsVar {
 	 */
 	public static int flow_result = 1;
 
-	/**
-	 * 最新关注列表
-	 */
 	// public static ArrayList<AttentionInfo> attentionInfos = new
 	// ArrayList<AttentionInfo>();
-
-	/**
-	 * 搜房卡账户的id
-	 */
-	public static String cid = "";
 
 	/**
 	 * 定位信息
@@ -66,8 +58,7 @@ public class UtilsVar {
 	 */
 	public static boolean IS_LOCATION_GEOCODE_FAILED = false;
 	/**
-	 * 地图x坐标 经度 0、新房；1、二手房；2、租房；3、楼盘社区 4、房屋合租 5、商铺出售 6、别墅出售7、别墅出租 8、写字楼出租
-	 * 9、写字楼出售 10、商铺出租
+	 * 地图x坐标 经度
 	 */
 	public static String[] mapX = { "0.0", "0.0", "0.0", "0.0", "0.0", "0.0",
 			"0.0", "0.0", "0.0", "0.0", "0.0" };
@@ -79,19 +70,18 @@ public class UtilsVar {
 			"0.0", "0.0", "0.0", "0.0", "0.0" };
 
 	/**
-	 * 搜索更多x坐标经度 0、房屋合租；1、别墅出售；2、别墅出租；3、写字楼出售；4、写字楼出租；5、商铺出售；6、商铺出租
+	 * 
 	 */
 	public static String[] mapMoreX = { "0.0", "0.0", "0.0", "0.0", "0.0",
 			"0.0", "0.0" };
 
 	/**
-	 * 搜索更多y坐标纬度
+	 * 
 	 */
 	public static String[] mapMoreY = { "0.0", "0.0", "0.0", "0.0", "0.0",
 			"0.0", "0.0" };
 
 	public static enum houseType {
-		新房, 新盘, 小区, 租房, 二手房, 别墅出租, 别墅出售, 商铺出租, 商铺出售, 写字楼出租, 写字楼出售, 房屋合租, 房屋求购, 房屋求租;
 	}
 
 	public static int screenWidth = 0;
