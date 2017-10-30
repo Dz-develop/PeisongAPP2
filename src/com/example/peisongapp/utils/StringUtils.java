@@ -336,7 +336,7 @@ public class StringUtils {
 	}
 
 	/**
-	 * 对搜房的图片进行动态调整
+	 * 
 	 * 
 	 * @param coverimg
 	 * @param width
@@ -450,7 +450,7 @@ public class StringUtils {
 	 */
 	public static void viewText(TextView tv, String str) {
 		if (isNullOrEmpty(str)) {
-			tv.setText("暂无资料");
+			tv.setText("");
 		} else {
 			tv.setText(str);
 		}
@@ -1033,24 +1033,6 @@ public class StringUtils {
 		}
 	}
 
-	// /**
-	// * 添加推送进入页的网络统计参数
-	// *
-	// * @param map
-	// */
-	// public static void addMap(Map<String, String> map) {
-	// if (map != null && map.size() > 0) {
-	// HashMap<String, String> pairs = SoufunApp.getSelf().getMap();
-	// if (!pairs.isEmpty() && pairs.size() > 0) {
-	// Set<String> key = pairs.keySet();
-	// for (Iterator it = key.iterator(); it.hasNext();) {
-	// String s = (String) it.next();
-	// map.put(s, pairs.get(s));
-	// }
-	// pairs.clear();
-	// }
-	// }
-	// }
 	/**
 	 * 给定一个秒数，转化为00:00:00格式的时间
 	 * 
