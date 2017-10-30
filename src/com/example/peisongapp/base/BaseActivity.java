@@ -50,7 +50,7 @@ public abstract class BaseActivity extends Activity implements OnClickListener,
 	 */
 	protected boolean mIsFront = false;
 	/**
-	 * 是否重新初始化贷款计算器数据
+	 *
 	 */
 	public static boolean isClear = false;
 	public static boolean isFirst = false;
