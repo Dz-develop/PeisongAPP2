@@ -19,8 +19,8 @@ import com.example.peisongapp.R;
  */
 public class PageLoadingView40 extends FrameLayout {
 
-	private static final int SOUFUN_LOADING_BAR = R.drawable.page_loading_bar_40x40;
-	private static final int SOUFUN_LOADING = R.drawable.page_loading_40x40;
+	private static final int what_LOADING_BAR = R.drawable.page_loading_bar_40x40;
+	private static final int what_LOADING = R.drawable.page_loading_40x40;
 	
 	private static Animation animation;
 	private static Rotate3d rotate3d;
@@ -46,10 +46,10 @@ public class PageLoadingView40 extends FrameLayout {
 	public void init(Context context) {
 		LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 		iv_loading_bar = new ImageView(context);
-		iv_loading_bar.setImageResource(SOUFUN_LOADING_BAR);
+		iv_loading_bar.setImageResource(what_LOADING_BAR);
 		iv_loading_bar.setLayoutParams(params);
 		iv_loading = new ImageView(context);
-		iv_loading.setImageResource(SOUFUN_LOADING);
+		iv_loading.setImageResource(what_LOADING);
 		iv_loading.setLayoutParams(params);
 		this.addView(iv_loading_bar);
 		this.addView(iv_loading);
