@@ -38,7 +38,7 @@ public class BaseLayout extends RelativeLayout {
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		switch (type) {
 		case PROGRESS:
-			//setProgressBg(layoutInflater);// 这个事用来
+			//setProgressBg(layoutInflater);// 
 											// 在进入页面的饿时候进行一个
 											// 预加载的动画效果
 			break;
