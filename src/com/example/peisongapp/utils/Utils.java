@@ -48,43 +48,8 @@ public class Utils {
 
 	public static Handler handler;
 
-	// public static void analytics(String type, String name, String label) {
-	// String operation = "点击";
-	// String s = null;
-	// if (SoufunConstants.ZF.equals(type)) {
-	// s = "搜房-4.1.3-租房" + name;
-	// } else if (SoufunConstants.XF.equals(type)) {
-	// s = "搜房-4.1.3-新房" + name;
-	// } else if (SoufunConstants.ESF.equals(type)) {
-	// s = "搜房-4.1.3-二手房" + name;
-	// } else if (SoufunConstants.XQ.equals(type)) {
-	// s = "搜房-4.1.3-楼盘社区" + name;
-	// } else if (SoufunConstants.HZ.equals(type)) {
-	// s = "搜房-4.1.0-房屋合租" + name;
-	// } else if (SoufunConstants.ESF_BS.equals(type)) {
-	// s = "搜房-4.1.0-别墅出售" + name;
-	// } else if (SoufunConstants.ZF_BS.equals(type)) {
-	// s = "搜房-4.1.0-别墅出租" + name;
-	// } else if (SoufunConstants.ESF_SP.equals(type)) {
-	// s = "搜房-4.1.7-地图页-商铺出售地图页";
-	// } else if (SoufunConstants.ZF_SP.equals(type)) {
-	// s = "搜房-4.1.7-地图页-商铺出租地图页";
-	// } else if (SoufunConstants.ESF_XZL.equals(type)) {
-	// s = "搜房-4.1.7-地图页-写字楼出售地图页";
-	// } else if (SoufunConstants.ZF_XZL.equals(type)) {
-	// s = "搜房-4.1.7-地图页-写字楼出租地图页";
-	// } else if (SoufunConstants.QG.equals(type)) {
-	// s = "搜房-4.1.0-房屋求购" + name;
-	// } else if (SoufunConstants.QZ.equals(type)) {
-	// s = "搜房-4.1.0-房屋求租" + name;
-	// }
-	// Analytics.trackEvent(s, operation, label);
-	// }
+	
 
-	/**
-	 * 弹出SoufunProcessDialog
-	 * 
-	 */
 	public static Dialog showProcessDialog(Context context) {
 		Dialog customDialog = new Dialog(context,
 				R.style.Theme_Light_ProcessDialog_Blue);
@@ -96,7 +61,7 @@ public class Utils {
 	}
 
 	/**
-	 * 弹出SoufunProcessDialog
+	 * 弹出
 	 * 
 	 * @param content
 	 *            显示内容
